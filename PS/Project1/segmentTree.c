@@ -1,3 +1,5 @@
+
+#if 0
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -48,3 +50,4 @@ int main() {
 	printf("2~5 sum: %d", segsum(segtree, 2, 5, 0, 9, 0));
 	return 0;
 }
+#endif

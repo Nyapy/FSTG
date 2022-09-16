@@ -24,5 +24,11 @@
     <ClCompile Include="segmentTree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1999.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="infixToPostfix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
