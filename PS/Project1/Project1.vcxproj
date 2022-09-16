@@ -123,8 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1999.c" />
     <ClCompile Include="4179.c" />
+    <ClCompile Include="infixToPostfix.c" />
     <ClCompile Include="queue.c" />
+    <ClCompile Include="segmentTree.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
