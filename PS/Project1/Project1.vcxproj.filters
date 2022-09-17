@@ -30,5 +30,11 @@
     <ClCompile Include="infixToPostfix.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1935.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
