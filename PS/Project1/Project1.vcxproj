@@ -124,9 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10757.c" />
+    <ClCompile Include="1417.c" />
     <ClCompile Include="1935.c" />
     <ClCompile Include="1999.c" />
     <ClCompile Include="4179.c" />
+    <ClCompile Include="base.cpp" />
+    <ClCompile Include="heap.c" />
+    <ClCompile Include="heapSort.c" />
     <ClCompile Include="infixToPostfix.c" />
     <ClCompile Include="mergeSort.c" />
     <ClCompile Include="queue.c" />
