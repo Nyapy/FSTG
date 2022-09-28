@@ -124,12 +124,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10757.c" />
+    <ClCompile Include="11279.c" />
     <ClCompile Include="1417.c" />
+    <ClCompile Include="1927.c" />
     <ClCompile Include="1935.c" />
     <ClCompile Include="1999.c" />
     <ClCompile Include="4179.c" />
     <ClCompile Include="base.cpp" />
+    <ClCompile Include="BinarySearch3151.c" />
+    <ClCompile Include="binary_search.c" />
     <ClCompile Include="heap.c" />
+    <ClCompile Include="heap11286.c" />
     <ClCompile Include="heapSort.c" />
     <ClCompile Include="infixToPostfix.c" />
     <ClCompile Include="mergeSort.c" />

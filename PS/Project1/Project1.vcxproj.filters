@@ -54,5 +54,20 @@
     <ClCompile Include="1417.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="11279.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1927.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="heap11286.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch3151.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

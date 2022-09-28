@@ -1,4 +1,4 @@
-#if 1
+#if 0
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,9 +16,7 @@ typedef struct PQ {
 
 void addpq(pq* q, node cand) {
 	int ch = ++(q->size);
-	q->queue[ch] = cand;
 
-	int par = (ch - 1) / 2;
 	node tem;
 	while ((ch != 1) && (cand.vote > q->queue[ch/2].vote)) {
 		q->queue[ch] = q->queue[ch/2];
