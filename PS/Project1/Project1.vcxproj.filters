@@ -69,5 +69,11 @@
     <ClCompile Include="BinarySearch3151.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="heapsort2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2750.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

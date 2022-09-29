@@ -136,10 +136,12 @@
     <ClCompile Include="heap.c" />
     <ClCompile Include="heap11286.c" />
     <ClCompile Include="heapSort.c" />
+    <ClCompile Include="heapsort2.c" />
     <ClCompile Include="infixToPostfix.c" />
     <ClCompile Include="mergeSort.c" />
     <ClCompile Include="queue.c" />
     <ClCompile Include="segmentTree.c" />
+    <ClCompile Include="Sort2750.c" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
