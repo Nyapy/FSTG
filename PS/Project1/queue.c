@@ -25,7 +25,7 @@ void addQue(queue *q, int value) {
 	else {
 		q->tail->back = newNode;
 	}
-	newNode->front = q->tail;
+	//newNode->front = q->tail;
 	q->tail = newNode;
 	q->len++;
 };

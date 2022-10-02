@@ -75,5 +75,14 @@
     <ClCompile Include="Sort2750.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sort2751%28other%29.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quickSort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Topological2056.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,10 +1,10 @@
-#if 01
+#if 0
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
 int size;
-int arr[1000];
+int arr[1000000];
 
 void heapify(int* a, int size) {
 	for (int i = size / 2; i >= 0; i--) {
@@ -35,7 +35,7 @@ void heapSort(int* a, int size) {
 	for (int i = size - 1; i > 0; i--) {
 		int tem = a[i];
 		a[i] = a[0];
-		a[0] = tem;
+
 		par = 0;
 		ch = (par * 2) + 1;
 
@@ -43,14 +43,14 @@ void heapSort(int* a, int size) {
 			if ((ch < i - 1) && (a[ch] < a[ch + 1])) {
 				ch++;
 			}
-			if (tem < a[ch]) {
-				a[par] = tem;
-				a[par] = a[ch];
-				a[ch] = tem;
-			}
+			if (tem >= a[ch]) break;
+
+			a[par] = a[ch];
+
 			par = ch;
 			ch = (par * 2) + 1;
 		}
+		a[par] = tem;
 	}
 }
 

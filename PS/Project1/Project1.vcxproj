@@ -140,9 +140,12 @@
     <ClCompile Include="infixToPostfix.c" />
     <ClCompile Include="mergeSort.c" />
     <ClCompile Include="queue.c" />
+    <ClCompile Include="quickSort.c" />
     <ClCompile Include="segmentTree.c" />
     <ClCompile Include="Sort2750.c" />
+    <ClCompile Include="Sort2751%28other%29.c" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="Topological2056.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
