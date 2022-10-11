@@ -84,5 +84,23 @@
     <ClCompile Include="Topological2056.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Topological2056_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EP1292.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="22949.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="knapsack12865.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10172.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dp1699.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

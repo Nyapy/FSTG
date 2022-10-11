@@ -1,4 +1,4 @@
-#if 01
+#if 0
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -73,7 +73,7 @@ int main() {
 		oper[i].vec.size = 0;
 		oper[i].vec.last = NULL;
 
-		for (int j = 0; j < oper[i].prio; j++) {
+		for (int j = 0; j < oper[i].prio; j++) {//해당 작업을 필요로 하는 작업들의 목록을 표시함.
 			scanf(" %d", &tem);
 
 			node *a = (node*)malloc(sizeof(node));
@@ -83,7 +83,7 @@ int main() {
 			oper[tem].vec.size ++;
 		}
 
-		if (oper[i].prio == 0) {
+		if (oper[i].prio == 0) { //선작업이 없는 경우를 큐에 넣음
 			qnode *qn= (qnode*)malloc(sizeof(qnode));
 			qn->oper = &oper[i];
 			qn->back = NULL;
@@ -93,32 +93,35 @@ int main() {
 	}
 
 	int ans=0;
-	while (q.size > 0) {
+	while (q.size > 0) {// 큐가 빌 때까지 돌림.
 		qnode *qn = popQ(&q);
 		
-		int cy = qn->oper->vec.size;
-		qn->oper->end += qn->oper->time;
+		
+		qn->oper->end += qn->oper->time; //작업의 시작시간와 소요 시간을 더해서 끝나는 시간을 표시함.
 
-		if (ans < (qn->oper->end)) {
+		if (ans < (qn->oper->end)) {//작업 종료 시간이 정답보다 크다면 update
 			ans = qn->oper->end;
 		}
 
+		int cy = qn->oper->vec.size; //해당 작업을 선행으로 해야하는 작업들 
+		
+		node* a = qn->oper->vec.last;
 		for (int i = 0; i < cy; i++) {
-			node* a = qn->oper->vec.last;
+			 //벡터 뒤에서부터 하나씩 읽음
 
 			(oper[a->op].prio)--;
-			if (oper[a->op].end < qn->oper->end) {
+
+			if (oper[a->op].end < qn->oper->end) { //해당 작업의 시작시간을 설정해줌.
 				oper[a->op].end = qn->oper->end;
 			}
-			if (oper[a->op].prio == 0) {
+			if (oper[a->op].prio == 0) { //선행작업이 없다면 Q에 넣어줌
 				qnode* newq = (qnode*)malloc(sizeof(qnode));
 				newq->oper = &oper[a->op];
 				newq->back = NULL;
 				addQ(newq, &q);
 			}
 
-			qn->oper->vec.last = qn->oper->vec.last->front;
-			free(a);
+			a = qn->oper->vec.last->front;
 		}
 		free(qn);
 	}

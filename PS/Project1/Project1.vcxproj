@@ -123,21 +123,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10172.c" />
     <ClCompile Include="10757.c" />
     <ClCompile Include="11279.c" />
     <ClCompile Include="1417.c" />
     <ClCompile Include="1927.c" />
     <ClCompile Include="1935.c" />
     <ClCompile Include="1999.c" />
+    <ClCompile Include="22949.c" />
     <ClCompile Include="4179.c" />
     <ClCompile Include="base.cpp" />
     <ClCompile Include="BinarySearch3151.c" />
     <ClCompile Include="binary_search.c" />
+    <ClCompile Include="Dp1699.c" />
+    <ClCompile Include="EP1292.c" />
     <ClCompile Include="heap.c" />
     <ClCompile Include="heap11286.c" />
     <ClCompile Include="heapSort.c" />
     <ClCompile Include="heapsort2.c" />
     <ClCompile Include="infixToPostfix.c" />
+    <ClCompile Include="knapsack12865.c" />
     <ClCompile Include="mergeSort.c" />
     <ClCompile Include="queue.c" />
     <ClCompile Include="quickSort.c" />
@@ -146,6 +151,7 @@
     <ClCompile Include="Sort2751%28other%29.c" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="Topological2056.c" />
+    <ClCompile Include="Topological2056_2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
