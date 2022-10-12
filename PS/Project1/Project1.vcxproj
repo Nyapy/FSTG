@@ -135,6 +135,7 @@
     <ClCompile Include="base.cpp" />
     <ClCompile Include="BinarySearch3151.c" />
     <ClCompile Include="binary_search.c" />
+    <ClCompile Include="convexHull1708.c" />
     <ClCompile Include="Dp1699.c" />
     <ClCompile Include="EP1292.c" />
     <ClCompile Include="heap.c" />
