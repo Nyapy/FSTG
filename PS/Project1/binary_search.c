@@ -34,7 +34,7 @@ int upper_bound(int* a, int find, int n) {
 int a[10] = {1 ,3,5,7,9,9,13,15,17,19};
 
 int main() {
-	int lower = lower_bound(a, 9, 10);
+	int lower = lower_bound(a, 9, 20);
 	int upper = upper_bound(a, 9, 10);
 	printf("a[%d] : %d\n", lower, a[lower]);
 	printf("a[%d] : %d", upper, a[upper]);

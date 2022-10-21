@@ -105,5 +105,20 @@
     <ClCompile Include="convexHull1708.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Binary2470.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="radixSort2750.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DP11062.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LCS9251.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
