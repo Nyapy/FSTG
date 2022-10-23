@@ -147,6 +147,7 @@
     <ClCompile Include="infixToPostfix.c" />
     <ClCompile Include="knapsack12865.c" />
     <ClCompile Include="LCS9251.c" />
+    <ClCompile Include="LCS9251_2.c" />
     <ClCompile Include="mergeSort.c" />
     <ClCompile Include="queue.c" />
     <ClCompile Include="quickSort.c" />
