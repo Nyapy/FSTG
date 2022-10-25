@@ -141,6 +141,7 @@
     <ClCompile Include="Dp1699.c" />
     <ClCompile Include="DP2225.c" />
     <ClCompile Include="DP2293.c" />
+    <ClCompile Include="dp2410.c" />
     <ClCompile Include="EP1292.c" />
     <ClCompile Include="heap.c" />
     <ClCompile Include="heap11286.c" />
