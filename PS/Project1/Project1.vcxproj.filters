@@ -126,5 +126,8 @@
     <ClCompile Include="DP2293.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DP2225.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
