@@ -132,5 +132,29 @@
     <ClCompile Include="dp2410.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LCS9252.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1039.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NM15665.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2668.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5529.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5529.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
