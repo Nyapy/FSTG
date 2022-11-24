@@ -159,5 +159,26 @@
     <ClCompile Include="Dijkstra1238cpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1504.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1504.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1504_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1967.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1712.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1062.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2661.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
