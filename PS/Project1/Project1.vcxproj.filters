@@ -180,5 +180,11 @@
     <ClCompile Include="2661.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1415.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1415dp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
