@@ -140,6 +140,7 @@
     <ClCompile Include="1967.c" />
     <ClCompile Include="1999.c" />
     <ClCompile Include="22949.c" />
+    <ClCompile Include="2437.c" />
     <ClCompile Include="2661.c" />
     <ClCompile Include="2668.c" />
     <ClCompile Include="4179.c" />
