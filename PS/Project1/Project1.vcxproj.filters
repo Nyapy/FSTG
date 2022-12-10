@@ -189,5 +189,11 @@
     <ClCompile Include="2437.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="14003.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1365.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
