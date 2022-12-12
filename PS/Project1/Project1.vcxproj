@@ -128,6 +128,7 @@
     <ClCompile Include="10757.c" />
     <ClCompile Include="1039.c" />
     <ClCompile Include="11279.c" />
+    <ClCompile Include="12014.c" />
     <ClCompile Include="1365.c" />
     <ClCompile Include="14003.c" />
     <ClCompile Include="1415.c" />
@@ -170,6 +171,8 @@
     <ClCompile Include="LCS9251.c" />
     <ClCompile Include="LCS9251_2.c" />
     <ClCompile Include="LCS9252.c" />
+    <ClCompile Include="lis3745.c" />
+    <ClCompile Include="lis9702.c" />
     <ClCompile Include="mergeSort.c" />
     <ClCompile Include="NM15665.c" />
     <ClCompile Include="queue.c" />

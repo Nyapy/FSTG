@@ -195,5 +195,14 @@
     <ClCompile Include="1365.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lis9702.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lis3745.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="12014.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
