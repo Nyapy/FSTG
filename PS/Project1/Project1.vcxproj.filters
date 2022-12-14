@@ -204,5 +204,8 @@
     <ClCompile Include="12014.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1818.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
