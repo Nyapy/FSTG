@@ -142,6 +142,8 @@
     <ClCompile Include="1818.c" />
     <ClCompile Include="1927.c" />
     <ClCompile Include="1935.c" />
+    <ClCompile Include="1939.cpp" />
+    <ClCompile Include="1939_wrong.cpp" />
     <ClCompile Include="1967.c" />
     <ClCompile Include="1999.c" />
     <ClCompile Include="22949.c" />
@@ -151,6 +153,7 @@
     <ClCompile Include="4179.c" />
     <ClCompile Include="5529.c" />
     <ClCompile Include="5529.cpp" />
+    <ClCompile Include="6497.cpp" />
     <ClCompile Include="base.cpp" />
     <ClCompile Include="Binary2470.c" />
     <ClCompile Include="BinarySearch3151.c" />
