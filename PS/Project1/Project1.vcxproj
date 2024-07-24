@@ -150,6 +150,7 @@
     <ClCompile Include="2437.c" />
     <ClCompile Include="2661.c" />
     <ClCompile Include="2668.c" />
+    <ClCompile Include="2887.cpp" />
     <ClCompile Include="4179.c" />
     <ClCompile Include="5529.c" />
     <ClCompile Include="5529.cpp" />
