@@ -139,6 +139,7 @@
     <ClCompile Include="1504.c" />
     <ClCompile Include="1504.cpp" />
     <ClCompile Include="1504_2.cpp" />
+    <ClCompile Include="15681.cpp" />
     <ClCompile Include="1712.c" />
     <ClCompile Include="17425.cpp" />
     <ClCompile Include="1818.c" />
@@ -148,6 +149,7 @@
     <ClCompile Include="1939_wrong.cpp" />
     <ClCompile Include="1967.c" />
     <ClCompile Include="1999.c" />
+    <ClCompile Include="20040.cpp" />
     <ClCompile Include="22949.c" />
     <ClCompile Include="2437.c" />
     <ClCompile Include="2661.c" />
